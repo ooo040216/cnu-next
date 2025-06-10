@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard";
-import { ProductItem } from "@/app/types/Product";
+import { ProductItem } from "@/types/Product";
 
 export default function ProductList({
   items,

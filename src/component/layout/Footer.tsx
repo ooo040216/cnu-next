@@ -1,4 +1,4 @@
-import { useUser } from "@/app/context/UserContext";
+import { useUser } from "@/context/UserContext";
 
 /* 실습 4 useContext */
 const Footer = () => {

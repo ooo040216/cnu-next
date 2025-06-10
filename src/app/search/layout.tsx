@@ -1,5 +1,5 @@
-import { SearchProvider } from "../context/SearchContext";
-import { UserProvider } from "../context/UserContext";
+import { SearchProvider } from "../../context/SearchContext";
+import { UserProvider } from "../../context/UserContext";
 
 export default function SearchLayout({
   children,

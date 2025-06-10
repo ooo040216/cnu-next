@@ -1,5 +1,5 @@
 "use client";
-import { useSearch } from "@/app/context/SearchContext";
+import { useSearch } from "@/context/SearchContext";
 
 export default function SearchInput() {
   const { query, setQuery, setResult } = useSearch();

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import { ProductItem } from "@/app/types/Product";
+import { ProductItem } from "@/types/Product";
 
 interface Props {
   item: ProductItem;

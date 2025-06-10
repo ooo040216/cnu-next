@@ -1,5 +1,5 @@
 "use client";
-import { ProductItem } from "@/app/types/Product";
+import { ProductItem } from "@/types/Product";
 
 interface Props {
   cart: { [productId: string]: number };

@@ -1,7 +1,7 @@
 // ProductCartPage.tsx
 import { useEffect, useState } from "react";
 import ProductList from "./ProductList";
-import { ProductItem } from "@/app/types/Product";
+import { ProductItem } from "@/types/Product";
 import CartList from "./CartList";
 
 export default function ProductCart({ items }: { items: ProductItem[] }) {

@@ -1,6 +1,6 @@
 /*  실습 1 */
 /* 실습 4 useContext */
-import { useUser } from "@/app/context/UserContext";
+import { useUser } from "@/context/UserContext";
 
 interface HeaderProps {
   title: string;

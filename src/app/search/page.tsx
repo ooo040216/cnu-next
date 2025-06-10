@@ -1,12 +1,12 @@
 "use client";
 
-import Header from "../component/layout/Header";
-import Footer from "../component/layout/Footer";
-import SearchInput from "../component/search/SearchInput";
-import ProductCart from "../component/shopping/ProductCart";
-import { useUser } from "../context/UserContext";
+import Header from "../../component/layout/Header";
+import Footer from "../../component/layout/Footer";
+import SearchInput from "../../component/search/SearchInput";
+import ProductCart from "../../component/shopping/ProductCart";
+import { useUser } from "../../context/UserContext";
 import { useEffect } from "react";
-import { useSearch } from "../context/SearchContext";
+import { useSearch } from "../../context/SearchContext";
 
 export default function SearchHome() {
   const { user, setUser } = useUser();
@@ -24,8 +24,6 @@ export default function SearchHome() {
         <Header title={`${user.name} 쇼핑`} />
         <SearchInput />
         <ProductCart items={result} />
-        {/* 
-        <Footer /> */}
       </div>
     </div>
   );

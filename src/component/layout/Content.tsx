@@ -1,5 +1,5 @@
 /* 실습 4 useContext */
-import { ThemeContext } from "@/app/context/ThemeContext";
+import { ThemeContext } from "@/context/ThemeContext";
 import { useContext } from "react";
 
 const Content = () => {
